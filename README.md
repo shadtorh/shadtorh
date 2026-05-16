@@ -1,73 +1,76 @@
-## Hi there 👋
+# Hi, I'm Shad Torh 👋
 
-<!--
-**shadtorh/shadtorh** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...# Shad Torh
-
-**Full Stack Developer · Founder · CS Student**
-
-Pennsylvania, USA · [shadtorh.com](https://shadtorh.com) · [LinkedIn](https://linkedin.com/in/shad-torh-9a2ab2352)
+Full Stack Developer · Founder · CS Student  
+📍 Pennsylvania, USA
 
 ---
 
-### What I'm building
+## What I'm Building
 
-**[CampusCore](https://getcampuscore.com)** — A multi-tenant school management SaaS
-for private K-12 schools in Liberia, West Africa.
+### 🎓 [CampusCore](https://getcampuscore.com) — *Private · Live in Production*
+A multi-tenant school management SaaS built for private K-12 schools in Liberia, West Africa.
+Built solo from scratch. Deployed and live at [getcampuscore.com](https://getcampuscore.com)
 
-Built solo from scratch. Live in production.
+**What it does:**
+- Manages students, teachers, parents, staff across multiple schools
+- Attendance tracking with SMS notifications to parents via Twilio
+- Grade entry, approval workflow, and auto-generated report cards
+- Fee management with payment recording in Liberian Dollars
+- Timetable management for admins, teachers, and students
+- Student promotion across academic years with full data history
+- PWA — works on mobile, installable on phone
 
-- Multi-tenant architecture with full data isolation
-- JWT auth, RBAC, phone OTP verification
-- SMS notifications via Twilio
-- Attendance, grades, fees, report cards, timetables
-- Promotion workflow across academic years
-- PWA with offline support
+**How it's built:**
+- Multi-tenant architecture — each school's data is fully isolated
+- JWT authentication with refresh token rotation (max 10 sessions)
+- Role-based access control (6 roles: Super Admin, School Admin,
+  Sub Admin, Teacher, Student, Parent)
+- Phone OTP verification via Twilio for all account creation
+- Sentry error monitoring, Pino structured logging, health checks
+- Production audit score: 84/100
+
+**Stack:**
+Frontend  → Next.js 15, React 19, TypeScript, Tailwind CSS, shadcn/ui, Zustand
+Backend   → Node.js, Express 5, Prisma ORM, PostgreSQL (NeonDB)
+Services  → Twilio, Cloudinary, Sentry, Railway, Vercel
 
 ---
 
-### Tech Stack
-
-**Frontend:** Next.js 15 · React 19 · TypeScript · Tailwind CSS · shadcn/ui · Zustand
-
-**Backend:** Node.js · Express · Prisma · PostgreSQL · NeonDB
-
-**Infrastructure:** Vercel · Railway · Cloudinary · Twilio · Sentry
-
----
-
-### Projects
+## Other Projects
 
 | Project | Description | Stack |
 |---|---|---|
-| [CampusCore](https://getcampuscore.com) | School management SaaS — live product | Next.js, Node, PostgreSQL |
-| [JobConnect](https://github.com/shadtorh/jobconnect) | Full-stack job board with AI features | JavaScript |
+| [JobConnect](https://github.com/shadtorh/jobconnect) | Full-stack job board. Recruiters post jobs, seekers apply, AI-assisted features | JavaScript, Node.js |
+| [E-Commerce Store](https://github.com/shadtorh/e-commerce_store-web-app) | Full-stack e-commerce web app | JavaScript |
 
 ---
 
-### Education
+## Tech Stack
 
-**CS Student** — Lehigh Carbon Community College, Pennsylvania
+**Languages:** JavaScript · TypeScript  
+**Frontend:** Next.js · React · Tailwind CSS · shadcn/ui · Zustand · React Hook Form  
+**Backend:** Node.js · Express · Prisma · REST APIs  
+**Database:** PostgreSQL · NeonDB  
+**Tools:** Git · Vercel · Railway · Cloudinary · Twilio · Sentry · Postman  
 
 ---
 
-### Currently
+## Education
 
-- 🚀 Shipping CampusCore to first schools in Liberia
+🎓 **Computer Science** — Lehigh Carbon Community College, Pennsylvania  
+
+---
+
+## Currently
+
+- 🚀 Onboarding first schools onto CampusCore in Liberia
 - 📚 Studying Computer Science at LCCC
-- 👀 Open to full-stack software engineering roles
+- 💼 Open to full-stack software engineering roles
 
 ---
 
-*"Build things that solve real problems for real people."*
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## Connect
+
+[![Portfolio](https://img.shields.io/badge/Portfolio-shadtorh.com-black?style=flat&logo=safari)](https://shadtorh.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Shad_Torh-blue?style=flat&logo=linkedin)](https://linkedin.com/in/shad-torh-9a2ab2352)
+[![CampusCore](https://img.shields.io/badge/CampusCore-Live_Product-green?style=flat&logo=vercel)](https://getcampuscore.com)
